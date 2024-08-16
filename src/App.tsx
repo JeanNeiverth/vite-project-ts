@@ -6,6 +6,7 @@ import { Responsiveness } from './pages/Responsiveness.tsx'
 import { Components } from './pages/Components.tsx'
 import { Api } from './pages/Api.tsx'
 import './global.css'
+import { Toasts } from './pages/Toasts.tsx';
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
           <Route path="/responsiveness" element={<Responsiveness />} />
           <Route path="/components" element={<Components />} />
           <Route path="/api" element={<Api />} />
+          <Route path="/toasts" element={<Toasts />} />
         </Routes>    
       </BrowserRouter>   
     </div>

@@ -9,6 +9,7 @@ export function Home() {
                 <a href="./responsiveness">Responsividade</a>
                 <a href="./components">Componentes</a>
                 <a href="./api">API</a>
+                <a href="./toasts">Toasts</a>
             </div> 
         </div>
     )

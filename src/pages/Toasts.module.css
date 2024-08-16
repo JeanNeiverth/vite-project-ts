@@ -1,0 +1,18 @@
+.mainDiv {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainDiv button {
+    height: 10rem;
+    width:80%;
+    background-color: bisque;
+    border-radius: 20px;
+    margin:10%;
+}
+
+.mainDiv button:hover {
+    background-color: beige;
+}
