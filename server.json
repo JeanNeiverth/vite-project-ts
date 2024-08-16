@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Television"
+    },
+    {
+      "id": 2,
+      "name": "Microwave"
+    },
+    {
+      "id": 3,
+      "name": "Washing machine"
+    }
+  ]
+}

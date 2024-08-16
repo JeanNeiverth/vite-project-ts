@@ -4,7 +4,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import { Home } from './pages/Home.tsx'
 import { Responsiveness } from './pages/Responsiveness.tsx'
 import { Components } from './pages/Components.tsx'
-import { Page3 } from './pages/Page3.tsx'
+import { Api } from './pages/Api.tsx'
 import './global.css'
 
 export function App() {
@@ -15,7 +15,7 @@ export function App() {
           <Route path="/" element={<Home />} />
           <Route path="/responsiveness" element={<Responsiveness />} />
           <Route path="/components" element={<Components />} />
-          <Route path="/page3" element={<Page3 />} />
+          <Route path="/api" element={<Api />} />
         </Routes>    
       </BrowserRouter>   
     </div>

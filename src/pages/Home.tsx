@@ -8,7 +8,7 @@ export function Home() {
             <div className={styles.buttons}>
                 <a href="./responsiveness">Responsividade</a>
                 <a href="./components">Componentes</a>
-                <a href="./page3">page3</a>
+                <a href="./api">API</a>
             </div> 
         </div>
     )
