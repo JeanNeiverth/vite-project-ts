@@ -1,0 +1,20 @@
+.header {
+    background:#000;
+    height:5rem;
+    color:fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    text-decoration: none;
+    min-width:max-content;
+}
+
+.header a {
+    color: #fff;
+    background-color: inherit;
+}
+
+.header:hover {
+    background-color: #444444;
+}

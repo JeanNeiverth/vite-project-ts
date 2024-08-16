@@ -1,0 +1,15 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addpostit {
+    width: 2rem;
+    height: 2rem;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
